@@ -1,0 +1,68 @@
+ 
+/*icons F*/
+button{
+    cursor: pointer;
+}
+
+
+
+a{
+    color: rgb(71, 63, 63) ;
+    
+    
+}
+button:hover{
+    color: #0065fc;
+}
+
+
+
+form .fa-solid{
+    background-color: #d2d3d4;
+    border-radius:15px 0 0 15px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: auto;
+   
+    
+}
+.head_text{
+    width: 90%;
+    margin: auto;
+    
+}
+aside h2{
+    padding: 10px; 
+    
+}
+h1{
+    font-size: 20px;
+    
+}
+h3{
+    font-size: 14px;
+    
+
+}
+p .grey .fa-solid{
+    color: grey;
+}
+
+
+p{
+    font-size: small;
+}
+
+
+
+
+/* main */
+
+
+
+
+
+
+/* for tablet */
+  

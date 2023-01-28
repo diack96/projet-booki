@@ -1,0 +1,446 @@
+ /*header*/
+ 
+
+header img{
+    width: 100px;
+}
+header{
+    width: 90%;
+    margin: auto;
+}
+
+.head_text p{
+    margin: 10px;
+    font-size: 16px;
+}
+.search_bar{
+    display: flex;
+   
+    width: 90%;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+   height: 48px;
+   margin: auto;
+}   
+.filter button   .fa-solid{
+    background-color: #DEEBFF;
+    border-radius:50%;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+}
+
+
+
+.filter button{
+    background-color: white; 
+    border-radius: 25px; 
+    border: 2px  ridge ;
+    margin: 10px;         
+    padding-right: 20px; 
+    padding-left: 0px;
+
+    
+      
+                    
+    
+}
+.filter{
+    margin: auto;
+    width: 90%;
+   
+}
+.filter_text i{
+    font-weight: 900;
+    
+    color: #0065fc;
+    
+    padding: 8px 4px 8px 4px;
+    font-size: 14px;
+    margin-right: 10px
+    
+    
+
+}
+.filter_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+   
+}
+.filter_head {
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+.search_button {
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 1rem;
+    background-color: #0065fc;
+    color: white;
+    padding-right: 10px;
+    
+}
+
+.map{
+    
+    padding: 6px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px
+    
+}
+.map .fa-solid{
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+}
+.search-bar__input{
+    
+    padding: 1%;
+    border: 1px ridge ;
+    font-weight: 900;
+    color: #0a0a0a;
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    
+    
+    
+}
+.glass_icon{
+    display: none;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.filter_content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.filter_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+
+
+
+body{
+    
+    width: 100%;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    
+    margin: auto;
+    text-transform: capitalize;
+    
+    
+    
+
+
+}
+
+.filter_text .fa-solid{
+    border: 2px solid #f2f2f2;
+    color: #0065fc;
+    border-radius: 50%;
+    padding: 4px 8px 4px 8px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+        
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.info{
+    margin: 0%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+   align-items: center;
+   border-top: 6px;
+}
+nav li {
+ margin:0 4% 0 0;
+
+
+
+
+    }
+header a:link, header a:visited {
+     background-color: white;
+     color: rgb(15, 16, 16);
+     
+     padding: 10px 20px;
+    text-align: center;
+    
+    display: inline-block;
+      }
+      
+     header a:hover, header a:active {
+    
+        color: rgb(57, 88, 168);
+        border-top: 4px solid #0065fc ;
+        
+        
+        }
+        button a:hover {
+    
+            color: rgb(63, 153, 212);
+            
+            
+            
+            
+            }        
+
+
+nav button .fa-solid{
+    color:#0065FC;
+    width:8px;
+    height: 6px;
+    margin: auto;
+
+}
+
+
+    
+
+
+
+
+/*for mobile*/
+@media (max-width: 767px){
+    
+    header{
+      width: 100%;
+    }
+    header li{
+        width: 90%;
+        text-align: center;
+        margin: 0 28% 0 0;
+        
+        
+        
+    }
+    .header_content{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+        margin: 5%;
+       
+          
+       
+        
+    
+        
+        
+    }
+    nav .filter{
+        margin-top: 2%;
+
+    }
+    .filter_text{
+        margin-top: -10%;
+        margin-bottom: 4%;
+
+    }
+    .filter_head {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+       
+    }
+    .head_text p{
+        font-size: 14px;
+
+    }
+    .filter_head h2{
+        font-size: medium;
+        
+        
+       
+    }
+    .filter_head p {
+        
+        margin-top: 0%;
+       
+    }
+
+     .info{
+        
+        display: flex;
+        flex-direction: column;
+            
+    }
+    
+    .filter{
+        display: flex;
+        
+       align-items: center;
+      flex-wrap: wrap;
+       margin-top: 30px
+
+    }
+    .header_info{
+        display: flex;
+        
+    }
+    span .glass_icon {
+        display: contents;
+        padding: 10px;
+        border-radius: 17px 17px 17px 17px;
+        background-color: #d2d3d4;
+        border-radius:15px 0 0 15px;
+        width: 20px;
+        height: 8px;
+        padding: 14px;
+        
+        
+        color: white;
+        
+        cursor: pointer;
+    } 
+    .glass_icon .fa-solid{
+        background-color: #0065FC;
+        border-radius: 17px 17px 17px 17px;
+        height: 28px;
+        
+    }
+    .search_button {
+        display: none;
+    }
+   
+    header ul{
+        width: 100%;
+        margin-left: -16%;
+        width: 105%;
+        border-bottom: 2px ridge;
+        
+        
+    
+        
+    }
+
+    
+
+    header a:link, header a:visited {
+        background-color: white;
+        color: rgb(7, 77, 130);
+        margin: auto;
+        padding: 10px 20px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       
+       
+         }
+         
+         
+        header a:hover {
+       
+           color: rgb(63, 153, 212);
+           border-top: none;
+           border-bottom: 4px solid #0065fc ;
+           
+           
+           }  
+   
+    nav picture{
+        margin: auto;
+        font-size: 10px;
+
+
+
+    }
+    form{
+        width: 90%;
+        
+        
+       
+        
+        
+    }
+    
+    
+    
+    button .fa-solid{
+
+        
+        border-radius: 50%;
+
+    }
+    
+    h1{
+        width: 100%;
+        font-size: 22px;
+    }
+
+    
+    h2{
+        width: 100%;
+        font-size: 15px;
+        margin: auto;
+        
+    }
+
+    
+}
+/*for tablet*/
+@media  (max-width : 991px) and (min-width : 768px){
+    header{
+        width: 100%;
+        
+      }
+    body{
+        display: block;
+       
+      }
+      .filter{
+        width: 100%;
+    }
+    .filter_content{
+        width: 100%;
+    }
+    .filter_content h3{
+        width: 100%;
+    
+    
+    }
+    .header_info{
+        width: 100%;
+    }
+    }
+
